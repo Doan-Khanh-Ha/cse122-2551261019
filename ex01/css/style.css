@@ -1,0 +1,61 @@
+:root {
+  --mau-nen-khung: #FFFDE7;
+  --mau-vien: #9E9E9E;
+  --mau-do: #D40000;
+  --mau-xanh: #0033CC;
+  --mau-nen-tieu-de: #FFD9E6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.khung-tho {
+  width: 640px;
+  max-width: 100%;
+  padding: 24px;
+  text-align: center;
+  background: var(--mau-nen-khung);
+  border: 1px solid var(--mau-vien);
+}
+
+.khung-tho h1 {
+  margin: 0 0 20px;
+  padding: 6px 0;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--mau-do);
+  background: var(--mau-nen-tieu-de);
+}
+
+.khung-tho p {
+  margin: 0;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.kho-xanh {
+  color: var(--mau-xanh);
+}
+
+.kho-do {
+  color: var(--mau-do);
+}
+
+.khung-tho hr {
+  width: 55%;
+  height: 1px;
+  margin: 16px auto;
+  border: 0;
+  background: var(--mau-xanh);
+}
